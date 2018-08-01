@@ -1,11 +1,7 @@
 {
-  "name": "duxiaodu",
-  "version": "0.0.2",
-  "description": "duxiaodu",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/duxianwei520/react"
-  },
+  "name": "标注",
+  "version": "0.0.1",
+  "description": "标注系统",
   "private": true,
   "scripts": {
     "start": "webpack-dev-server --config ./scripts/webpack.dev.config.js",
@@ -14,12 +10,6 @@
     "mock": "supervisor -i node_modules mock/http.js",
     "chat": "node ./scripts/chatServer.js"
   },
-  "author": "duxiaodu",
-  "contributors": [
-    {
-      "name": "HanQ"
-    }
-  ],
   "devDependencies": {
     "babel-core": "~6.26.0",
     "babel-eslint": "~8.2.1",
